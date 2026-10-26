@@ -176,3 +176,5 @@ cd backend
 ## ⚖️ Disclaimer
 
 BuildPermit AI is a pre-submission review tool designed to assist applicants in identifying common documentation errors prior to formal permit filing. It is not an official permit-issuing authority and does not replace the professional judgment of licensed architects, engineers, or municipal plan examiners.
+#   B u l i d P e r m i t - A I  
+ 
