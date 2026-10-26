@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+.venv*/
+backend/.venv/
+backend/.venv*/
+env/
+venv/
+ENV/
+
+# Node dependencies and build artifacts
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Databases and local state
+*.db
+*.sqlite
+*.sqlite3
+backend/buildpermit.db
+
+# Storage artifacts (ignore uploaded files, keep directory structure)
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+backend/storage/previews/*
+!backend/storage/previews/.gitkeep
+backend/storage/reports/*
+!backend/storage/reports/.gitkeep
+
+# Environment and sensitive configuration
+.env
+backend/.env
+frontend/.env
+*.env
+!.env.example
+!backend/.env.example
+
+# Temporary test files
+temp_*.pdf
+*.tmp
+
+# Pytest and coverage
+.pytest_cache/
+backend/.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
